@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993C0AC0292DB77400BB74D0 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C0ABF292DB77400BB74D0 /* ContentView-ViewModel.swift */; };
+		993C0AC2292DD6F200BB74D0 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C0AC1292DD6F200BB74D0 /* FileManager-DocumentsDirectory.swift */; };
+		993C0AC62932817F00BB74D0 /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993C0AC52932817F00BB74D0 /* EditView-ViewModel.swift */; };
 		9970F7352927042B00B7D13B /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970F7342927042B00B7D13B /* BucketListApp.swift */; };
 		9970F7372927042B00B7D13B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970F7362927042B00B7D13B /* ContentView.swift */; };
 		9970F7392927042C00B7D13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9970F7382927042C00B7D13B /* Assets.xcassets */; };
 		9970F73C2927042C00B7D13B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9970F73B2927042C00B7D13B /* Preview Assets.xcassets */; };
+		9970F743292709D900B7D13B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970F742292709D900B7D13B /* Location.swift */; };
+		9970F745292887CF00B7D13B /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970F744292887CF00B7D13B /* EditView.swift */; };
+		9970F747292AF28300B7D13B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9970F746292AF28300B7D13B /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993C0ABF292DB77400BB74D0 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		993C0AC1292DD6F200BB74D0 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		993C0AC52932817F00BB74D0 /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 		9970F7312927042B00B7D13B /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9970F7342927042B00B7D13B /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		9970F7362927042B00B7D13B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9970F7382927042C00B7D13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9970F73B2927042C00B7D13B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9970F742292709D900B7D13B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9970F744292887CF00B7D13B /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		9970F746292AF28300B7D13B /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				9970F7342927042B00B7D13B /* BucketListApp.swift */,
 				9970F7362927042B00B7D13B /* ContentView.swift */,
+				993C0ABF292DB77400BB74D0 /* ContentView-ViewModel.swift */,
+				9970F742292709D900B7D13B /* Location.swift */,
+				9970F744292887CF00B7D13B /* EditView.swift */,
+				993C0AC52932817F00BB74D0 /* EditView-ViewModel.swift */,
+				9970F746292AF28300B7D13B /* Result.swift */,
 				9970F7382927042C00B7D13B /* Assets.xcassets */,
 				9970F73A2927042C00B7D13B /* Preview Content */,
+				993C0AC1292DD6F200BB74D0 /* FileManager-DocumentsDirectory.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9970F7372927042B00B7D13B /* ContentView.swift in Sources */,
+				993C0AC2292DD6F200BB74D0 /* FileManager-DocumentsDirectory.swift in Sources */,
+				993C0AC0292DB77400BB74D0 /* ContentView-ViewModel.swift in Sources */,
+				9970F747292AF28300B7D13B /* Result.swift in Sources */,
+				9970F743292709D900B7D13B /* Location.swift in Sources */,
+				993C0AC62932817F00BB74D0 /* EditView-ViewModel.swift in Sources */,
+				9970F745292887CF00B7D13B /* EditView.swift in Sources */,
 				9970F7352927042B00B7D13B /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +294,7 @@
 				DEVELOPMENT_TEAM = N5LSX666G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your map places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +324,7 @@
 				DEVELOPMENT_TEAM = N5LSX666G9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please authenticate yourself to unlock your map places";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
